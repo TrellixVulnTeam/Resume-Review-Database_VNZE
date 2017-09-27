@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+    <title>Shop Item - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../static/css/bootstrap.min_resume.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link href="../static/css/resume.css" rel="stylesheet">
+	 <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min_home.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../static/css/home.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="home.html">uOttawa Resume Database</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="jobs.html">Jobs</a>
+                    </li>
+                    <li>
+                        <a href="resume.html">My Resume</a>
+                    </li>
+					<li>
+                    <a href='profile.html'>
+                        Student Information</a>
+                    </li>
+                    <li>
+                    <a href='Signup.html'>
+                        Student Login</a>
+                    </li>
+					</li>
+					
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+</head>
+
+<body>
+
+    <!-- Page Content -->
+    <div style = "margin: 10px 30px 15px 50px; " width=100%>
+
+
+        <div class="row" width= 100%>
+			<h1 style="margin-bottom: 50px; text-align:center">Position of employment</h1>
+            <div class="col-md-2">
+<form class="form-horizontal">
+<fieldset>
+
+<!-- Form Name -->
+<legend>My Search</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="location">Location</label>  
+  <div class="col-md-5">
+  <input id="location" name="location" type="text" placeholder="City, Country" class="form-control input-md" style = "width: 150%">
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="industry">Industry</label>
+  <div class="col-md-5" >
+    <select id="industry" name="industr" class="form-control" style = "width: 150%">
+	<option value="0"></option>
+      <option value="1">Engineer</option>
+      <option value="3">Social Science</option>
+	  <option value="4">Business</option>
+	  <option value="5">Art</option>
+	  <option value="6">Science</option>
+    </select>
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="experience">Experience</label>
+  <div class="col-md-5">
+    <select id="experience" name="experience" class="form-control" style = "width: 150%">
+	<option value="0"></option>
+      <option value="1">1 Year</option>
+      <option value="2">2 Year</option>
+	  <option value="3">3 Year</option>
+	  <option value="4">4 Year</option>
+	  <option value="5">more than 4 Year</option>
+    </select>
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="lsalary">Starting Salary</label>
+  <div class="col-md-5">
+    <input id="Lsalary" name="lsalary" type="text" placeholder="Starting at" class="form-control input-md" style = "width: 150%">
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="rating">Rating</label>
+  <div class="col-md-5">
+    <select id="rating" name="rating" class="form-control" style = "width: 150%">
+	<option value="0"></option>
+      <option value="1">1 star & up</option>
+      <option value="2">2 star & up</option>
+	<option value="3">3 star & up</option>
+	  <option value="4">4 star & up</option>
+	  <option value="5">5 star</option>
+    </select>
+  </div>
+</div>
+
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="submit"></label>
+  <div class="col-md-4">
+    <button id="submit" name="submit" class="btn btn-primary">Search</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+
+				
+				
+           
+            </div>
+			
+			<div class="col-md-8" style = "margin-left: 5%">
+				<div class = "thumbnail">
+				<div class="caption-full">
+				<!--
+                        <h4 class="pull-right">$24.99</h4>
+						-->
+                        <h4 style = "color:	#1E90FF" >Company Name
+                        </h4>
+                        <p>Location: XXXXXXX</p>
+						<p>Industry: XXXXXXX</p>
+						<p>Salary: XXXXXXX</p>
+						<p>Experience Level: XXXXXXX</p>
+						<p>number of positions: XXXXXXX</p>
+ 
+                            
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                    <button name="Apply" class="btn btn-primary">Apply</button>
+					</div>
+				
+			</div>
+			
+			
+			
+			 <div class="well">
+
+                    <div class="text-right">
+                        <a class="btn btn-success">Leave a Review</a>
+                    </div>
+
+                    <hr>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                            Anonymous
+                            <span class="pull-right">10 days ago</span>
+                            <p>This product was great in terms of quality. I would definitely buy another!</p>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                            Anonymous
+                            <span class="pull-right">12 days ago</span>
+                            <p>I've alredy ordered another one!</p>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                            Anonymous
+                            <span class="pull-right">15 days ago</span>
+                            <p>I've seen some better than this, but not at this price. I definitely recommend this item.</p>
+                        </div>
+                    </div>
+
+                </div>
+			</div>
+        </div>
+
+    </div>
+
+    <!-- /.container -->
+
+
+
+        <!-- Footer -->
+        <footer style= "margin-bottom:10px; padding-bottom:0px;">
+            <div class="row" width = 100%>
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Your Website 2017</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+
+    <!-- jQuery -->
+    <script src="../static/js/jquery_resume.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../static/js/bootstrap.min_resume.js"></script>
+	
+	 <!-- jQuery -->
+    <script src="../static/js/jquery_home.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../static/js/bootstrap.min_home.js"></script>
+
+</body>
+
+</html>
